@@ -1,0 +1,21 @@
+name: com.example.simple_pet_app
+description: A simple Flutter application demonstrating the Cubit pattern for state management. The app displays a text with an icon, and the text changes when clicked.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^8.0.0
+  mocktail: ^0.3.0
+
+flutter:
+  uses-material-design: true
